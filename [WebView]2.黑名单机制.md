@@ -1,5 +1,5 @@
 ## 黑名单机制
-本期内容会介绍一下WebView优化中很常见的一个方案，黑名单过滤机制。在Android的WebViewClient中，有两个这样的回调：
+本篇内容会介绍WebView优化中很常见的一个方案————黑名单过滤机制。在Android的WebViewClient中，有两个这样的回调：
 - shouldOverrideUrlLoading：用以获取将要访问url，比如加载网页时的url。
 - shouldInterceptRequest：用以获取网页内部发起的资源请求，比如网页引用的css文件，js文件，图片等。  
 
